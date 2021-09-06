@@ -1,0 +1,23 @@
+{
+  "name": "ChomNomski",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeyZ89/ChomNomski.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeyZ89/ChomNomski/issues"
+  },
+  "homepage": "https://mikeyz89.github.io/ChomNomski",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
