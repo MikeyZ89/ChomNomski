@@ -141,10 +141,10 @@
 		}
 
 		body.is-preload & {
-			.inner {
-				@include vendor('transform', 'scale(0.99)');
-				opacity: 0;
-			}
+			// .inner {
+			// 	@include vendor('transform', 'scale(0.99)');
+			// 	opacity: 0;
+			// }
 
 			&:before {
 				opacity: 1;
