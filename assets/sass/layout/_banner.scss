@@ -104,9 +104,9 @@
 		}
 
 		@include breakpoint('<=large') {
-			video {
-				display: none;
-			}
+			// video {
+			// 	display: none;
+			// }
 		}
 
 		@include breakpoint('<=small') {
