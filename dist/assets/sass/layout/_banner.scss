@@ -77,7 +77,7 @@
 		}
 
 		video {
-			@include vendor('transform' 0, 'translateX(50%) translateY(50%)');
+			@include vendor('transform' 0, 'translateX(0%) translateY(0%)');
 			position: absolute;
 			bottom: 50%;
 			right: 50%;
