@@ -103,11 +103,11 @@
 			z-index: 1;
 		}
 
-		// @include breakpoint('<=large') {
-		// 	video {
-		// 		display: none;
-		// 	}
-		// }
+		@include breakpoint('<=large') {
+			video {
+				display: none;
+			}
+		}
 
 		@include breakpoint('<=small') {
 			@include padding(4em, 2em, (2em, 0, 0, 0));
