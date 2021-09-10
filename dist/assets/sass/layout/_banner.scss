@@ -13,15 +13,15 @@
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
 		@include vendor('justify-content', 'center');
-		background-image: url('../../images/banner.jpg');
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
-		border-top: 0;
-		min-height: 100vh;
-		position: relative;
-		text-align: center;
-		overflow: hidden;
+		// background-image: url('../../images/banner.jpg');
+		// background-position: center;
+		// background-size: cover;
+		// background-repeat: no-repeat;
+		// border-top: 0;
+		// min-height: 100vh;
+		// position: relative;
+		// text-align: center;
+		// overflow: hidden;
 
 		.inner {
 			@include vendor('transform', 'scale(1.0)');
@@ -104,9 +104,9 @@
 		}
 
 		@include breakpoint('<=large') {
-			video {
-				display: none;
-			}
+			// video {
+			// 	display: none;
+			// }
 		}
 
 		@include breakpoint('<=small') {
@@ -141,10 +141,10 @@
 		}
 
 		body.is-preload & {
-			.inner {
-				@include vendor('transform', 'scale(0.99)');
-				opacity: 0;
-			}
+			// .inner {
+			// 	@include vendor('transform', 'scale(0.99)');
+			// 	opacity: 0;
+			// }
 
 			&:before {
 				opacity: 1;
